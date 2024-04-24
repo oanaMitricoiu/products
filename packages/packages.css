@@ -80,9 +80,9 @@ main {
 }
 
 #free:hover,
-    #free:active {
-        border-color: #ff5454;
-    }
+#free:active {
+    border-color: #ff5454;
+}
 
 
 
