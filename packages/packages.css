@@ -80,9 +80,11 @@ main {
 }
 
 #free:hover,
-#free:active {
-   border-color: #ff5454;
-}
+    #free:active {
+        border-color: #ff5454;
+    }
+
+
 
 #premium {
     background: rgba(14, 79, 31, 0.95);
@@ -94,4 +96,27 @@ main {
 
 #premium .package__subtitle {
     color: #bbb;
+}
+
+@media(min-width: 40rem) {
+    main {
+        margin: 3rem auto;
+        max-width: 94rem;
+    }
+}
+
+@media(min-width: 94rem){
+    .package{
+        border-left:4px solid #0e4f1f;
+    }
+
+    #free {
+        border-right: 4px solid #0e4f1f;
+    }
+
+    #free:hover,
+    #free:active {
+        border-color: #ff5454;
+    }
+
 }

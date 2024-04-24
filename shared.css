@@ -59,9 +59,7 @@ body {
   color: #0e4f1f;
   text-decoration: none;
   font-weight: bold;
-  font-size: 1.5rem;
-  height: 1.5rem;
-  /* width: 20px; */
+  height: 2.5rem;
   display: inline-block;
   vertical-align: middle;
 }
@@ -124,6 +122,10 @@ body {
   background: black;
   padding: 2rem;
   margin-top: 3rem;
+  display: flex;
+  align-self: flex-end;
+  justify-content: center;
+  align-content: center;
 }
 
 .main-footer__links {
@@ -135,7 +137,7 @@ body {
 
 .main-footer__link {
   display: inline-block;
-  margin: 0 1rem;
+  margin: 0 2rem;
 }
 
 .main-footer__link a {
